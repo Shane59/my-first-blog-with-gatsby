@@ -13,7 +13,6 @@ const Test = styled.article`
 `;
 const BlogLists = styled.ol`
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   @media (max-width: 759px) {
     justify-content: space-around;
@@ -21,6 +20,13 @@ const BlogLists = styled.ol`
 `;
 const BlogList = styled.li`
   width: 240px;
+  margin-right: 13px;
+  :nth-child(3) {
+    margin-right: 0;
+  }
+  @media (max-width: 590px) {
+    width: 100%
+  }
 `;
 
 const BlogIndex = ({ data, location }) => {
@@ -51,7 +57,7 @@ const BlogIndex = ({ data, location }) => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
-            <BlogList key={post.fields.slug}>
+            <BlogList className="temp" key={post.fields.slug}>
               <Test
                 className="post-list-item"
                 itemScope
