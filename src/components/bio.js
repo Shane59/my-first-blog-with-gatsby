@@ -47,9 +47,11 @@ const Bio = () => {
           {author.summary || null}
           {` `}
           <br />
+          よければ
           <a href={`https://twitter.com/${social.twitter || ``}`}>
-            よければTwitterもフォローお願いします。
+            Twitter
           </a>
+          もフォローお願いします。
         </p>
       )}
     </div>

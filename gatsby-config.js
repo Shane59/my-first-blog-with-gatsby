@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-gtag",
       options: {
-        trackingIds: ["G-MRRWNP5M1S"],
+        trackingIds: ["G-RG4WQFHY2R"],
         pluginConfig: {
           head: true,
         },
