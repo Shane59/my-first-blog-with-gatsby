@@ -26,9 +26,9 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-gtag",
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: ["G-RG4WQFHY2R"],
+        trackingIds: [`G-RG4WQFHY2R`],
         pluginConfig: {
           head: true,
         },
@@ -168,3 +168,4 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+
