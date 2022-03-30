@@ -14,9 +14,6 @@ const Test = styled.article`
 const BlogLists = styled.ol`
   display: flex;
   flex-wrap: wrap;
-  @media (max-width: 759px) {
-    justify-content: space-around;
-  }
 `;
 const BlogList = styled.li`
   width: 240px;
@@ -24,8 +21,9 @@ const BlogList = styled.li`
   :nth-child(3) {
     margin-right: 0;
   }
-  @media (max-width: 590px) {
-    width: 100%
+  @media (max-width: 793px) {
+    width: 100%;
+    margin-right: 0;
   }
 `;
 
