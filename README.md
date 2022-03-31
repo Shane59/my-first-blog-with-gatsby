@@ -1,3 +1,10 @@
+This web service is build with Gatsby and Firebase.<br>
+Pushing to the master branch will run a github action and automatically build it on firebase.
+
+Please check the link below for the production service.<br>
+https://my-blog-96b3d.firebaseapp.com/
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
